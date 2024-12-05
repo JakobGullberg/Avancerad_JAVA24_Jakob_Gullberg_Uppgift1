@@ -25,12 +25,8 @@ Arv: De specifika fordonstyperna ärver från bas-klassen Vehicle, vilket gör a
 Inkapsling: Attributen i klasserna är privata, vilket gör att de inte kan ändras direkt utifrån utan måste hanteras genom getter och setter-metoder.
 Interfaces: Rentable definierar metoder för att hyra och returnera fordon samt beräkna kostnader. Genom att använda interfaces gör vi koden mer flexibel och lätt att underhålla.
 Så här ställer du in och kör applikationen
-Förutsättningar
-För att kunna köra applikationen behöver du ha följande installerat på din dator:
 
-Java Development Kit (JDK) version 11 eller högre.
-Git för att hämta källkoden från GitHub.
-Installation
+Installation;
 Kloning av projektet:
 
 För att klona repositoryt, öppna en terminal och kör följande kommando:
@@ -39,26 +35,10 @@ Byt ut ditt-användarnamn mot ditt faktiska GitHub-användarnamn.
 Navigera till projektmappen:
 
 Gå till den klonade mappen:
-cd VirtualCarRental
 Komplettera beroenden (om det behövs):
 
-Om du använder ett byggverktyg som Maven eller Gradle, se till att du har de nödvändiga beroenden i pom.xml (Maven) eller build.gradle (Gradle). I vårt projekt är inga externa beroenden nödvändiga, men se till att din IDE kan hantera Java korrekt.
-Kompilera och kör applikationen:
 
-Om du använder en IDE som IntelliJ IDEA eller Eclipse, öppna projektet där och kör huvudklassen (vanligtvis Main.java).
-Om du kör programmet via terminalen:
-Kompilera programmet:
-javac *.java
-Kör programmet:
-java Main
-Användning
-När applikationen körs kommer användaren att presenteras med en meny där de kan:
-
-Välja ett fordon att hyra (t.ex. bil, SUV, lastbil, motorcykel).
-Ange antal hyresdagar.
-Se kostnaden för hyran baserat på den valda fordonstypen och uthyrningens längd.
-Returnera fordonet och få en sammanfattning av den totala hyrkostnaden.
-Exempel på användargränssnitt:
+Exempel på hur mitt användargränssnitt ser ut:
 Välj ett fordon att hyra:
 1. Bil
 2. SUV
